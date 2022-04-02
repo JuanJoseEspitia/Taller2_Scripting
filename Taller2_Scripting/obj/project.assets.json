@@ -6141,11 +6141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daniel jaramillo\\source\\repos\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
+      "projectUniqueName": "C:\\Users\\daniel jaramillo\\Documents\\GitHub\\Taller 5 v2\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
       "projectName": "Taller2_Scripting",
-      "projectPath": "C:\\Users\\daniel jaramillo\\source\\repos\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
+      "projectPath": "C:\\Users\\daniel jaramillo\\Documents\\GitHub\\Taller 5 v2\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
       "packagesPath": "C:\\Users\\daniel jaramillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daniel jaramillo\\source\\repos\\Taller2_Scripting\\Taller2_Scripting\\obj\\",
+      "outputPath": "C:\\Users\\daniel jaramillo\\Documents\\GitHub\\Taller 5 v2\\Taller2_Scripting\\Taller2_Scripting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
