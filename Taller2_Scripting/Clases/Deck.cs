@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Taller2_Scripting.Clases
 {
-    internal class Deck
+     class Deck
     {
+        private List<Card> lcards= new List<Card>();
+        private uint costPoints;
+
+        public Deck(List<Card> lcards, uint costPoints)
+        {
+            this.Lcards = lcards;
+            this.CostPoints = costPoints;
+        }
+
+        public uint CostPoints { get => costPoints; set => costPoints = value; }
+        internal List<Card> Lcards { get => lcards; set => lcards = value; }
     }
 }
