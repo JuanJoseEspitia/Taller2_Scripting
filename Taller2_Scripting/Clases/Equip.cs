@@ -8,5 +8,11 @@ namespace Taller2_Scripting.Clases
 {
     internal class Equip
     {
+        private enum TargetAttribute {AP,RP,ALL }
+        uint EffectPoints;
+        private enum Affinity {Knight, Mage, Undead}
+
+
+
     }
 }

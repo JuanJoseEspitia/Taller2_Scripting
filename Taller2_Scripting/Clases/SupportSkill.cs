@@ -8,5 +8,7 @@ namespace Taller2_Scripting.Clases
 {
     internal class SupportSkill
     {
+        private enum EffectType { ReduceAP, ReduceRP, ReduceAll, DestroyEquip, RestoreRP }
+        int EffectPoints;
     }
 }
