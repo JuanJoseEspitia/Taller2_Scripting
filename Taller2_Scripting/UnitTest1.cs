@@ -1,23 +1,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
-using System.Collections.Generic;
-using static TestProject1.TestMethods;
-using static TestProject1.Ticket;
 
 namespace Taller2_Scripting
 {
-    public class Test
+    [TestClass]
+    public class UnitTest1
     {
-      
-
-
-
-
-        [Test]
-        public void ExisteDeck()
+        [TestMethod]
+        public void TestMethod1()
         {
-
         }
-
     }
 }
