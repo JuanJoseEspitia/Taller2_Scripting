@@ -49,5 +49,18 @@ namespace Taller2
             return michi_warrior;
         }
 
+        public bool SepuedeAgregar(Deck deck, Card card)
+        {
+            if (deck.CostPoints > card.CostPoint)
+            {
+                return true;
+            }
+            else return false;
+
+
+
+
+        }
+
     }
 }
