@@ -42,6 +42,26 @@ namespace Taller2
         {
             Equip equip = null;
 
+            Random randomEP = new Random();
+            uint rndEP = (uint)randomEP.Next(1, 6);
+            Random randomCP = new Random();
+            uint rndCP = (uint)randomCP.Next(1, 6);
+
+            equip.EffectPoints = rndEP;
+            equip.CostPoint = rndCP;
+
+            Array valuesAffi = Enum.GetValues(typeof(Equip.Affinity));
+            Random randomAffi = new Random();
+            Equip.Affinity randomAffinity = (Equip.Affinity)randomAffi.Next(valuesAffi.Length);
+
+            Array valuesTarg = Enum.GetValues(typeof(Equip.TargetAttribute));
+            Random randomTarg = new Random();
+            Equip.TargetAttribute randomTargget = (Equip.TargetAttribute)randomTarg.Next(valuesTarg.Length);
+
+            Array valuesRare = Enum.GetValues(typeof(Equip.lrarety));
+            Random randomRare = new Random();
+            Equip.lrarety randomRarety = (Equip.lrarety)randomRare.Next(valuesRare.Length);
+
             return equip;
         }
          public SupportSkill CrearsupportSkill()
