@@ -68,6 +68,23 @@ namespace Taller2
         {
             SupportSkill supportskill = null;
 
+            Random randomEP = new Random();
+            int rndEP = (int)randomEP.Next(1, 6);
+            
+            Random randomCP = new Random();
+            uint rndCP = (uint)randomCP.Next(1, 6);
+
+            supportskill.EffectPoints = rndEP;
+            supportskill.CostPoint = rndCP;
+
+            Array valuesEffect = Enum.GetValues(typeof(SupportSkill.l_EffectType));
+            Random randomEff = new Random();
+            SupportSkill.l_EffectType randomEffect = (SupportSkill.l_EffectType)randomEff.Next(valuesEffect.Length);
+
+            Array valuesRare = Enum.GetValues(typeof(SupportSkill.lrarety));
+            Random randomRare = new Random();
+            SupportSkill.lrarety randomRarety = (SupportSkill.lrarety)randomRare.Next(valuesRare.Length);
+
             return supportskill;
         }
         public Deck AgregarCartaAlDeck(Deck deck, Card card)
