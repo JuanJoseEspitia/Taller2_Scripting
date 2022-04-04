@@ -40,15 +40,7 @@ namespace Taller2
             return deck;
         }
 
-        public Deck CrearDeck(uint costPoint)
-        {
-            List<Card> l_cards = new List<Card>();
-
-            Deck deck = new Deck(l_cards, costPoint);
-
-            return deck;
-
-        }
+       
 
         public Character CrearCharacter()
         {
