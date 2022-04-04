@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iNhmSYk92+NsC3Dx5Q3ifkMeoYFNs/1fSNW94JzRU3uBTMPVF/b5iXRUQ2h8Ggf+XH/2fCNp2jqex/cPN+WDyg==",
+  "dgSpecHash": "YlZcln/yXsuKq8RlalutpBIYhdLE26L1VoikBrZ8D+UcVCHE3/8EM5ftEM+G7DMgTbxzTLnUlc7HhfFuxDPK5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\daniel jaramillo\\source\\repos\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
+  "projectFilePath": "C:\\Users\\daniel jaramillo\\Documents\\GitHub\\Taller 5 v2\\Taller2_Scripting\\Taller2_Scripting\\Taller2_Scripting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daniel jaramillo\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\daniel jaramillo\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
