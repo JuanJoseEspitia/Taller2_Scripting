@@ -19,5 +19,11 @@ namespace Taller2
 
         public uint CostPoints { get => costPoints; set => costPoints = value; }
         internal List<Card> Lcards { get => lcards; set => lcards = value; }
+
+
+       
     }
+
+   
+
 }
